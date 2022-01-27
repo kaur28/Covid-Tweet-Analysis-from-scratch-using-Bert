@@ -9,6 +9,8 @@ TWINT is an advanced Twitter scraping tool written in Python that allows for scr
 The extracted datasets were stored in respective CSV files. The raw dataset had a lot of noise like hashtags, retweets, account handles (@s). Which were then cleaned and removed. Both the datasets after respective cleaning were then merged into one csv file.
 
 After cleaning and merging, the next task was to determine the sentiment of the tweets. For that, first the POLARITY and SUBJECTIVITY of the tweets were determined. For that, The library TEXTBLOB was used.
+The following image describes the daaset's raw emotions.
+![](images/viz.jpg)
 
 Polarity is a float value which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. Subjectivity quantifies the amount of personal opinion and factual information contained in the text. The higher subjectivity means that the text contains personal opinion rather than factual information. TextBlob has one more parameter — intensity. TextBlob calculates subjectivity by looking at the ‘intensity’. Intensity determines if a word modifies the next word. For English, adverbs are used as modifiers (‘very good’)
 
