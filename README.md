@@ -1,4 +1,4 @@
-# Covid Based Tweet Analysis from scratch using Bert
+# Covid Based Tweet Analysis from scratch using BERT
 BERT stands for Bidirectional Encoder Representations from Transformers. It's intended to use both left and right context conditioning to pre-train deep bidirectional representations from unlabeled text. As a result, with just one extra output layer, the pre-trained BERT model may be fine-tuned to generate state-of-the-art models for a wide range of NLP applications.
 
 In other words, the BERT scans the entire sequence of words at once, unlike directional models that read the text input sequentially (left-to-right). As a result, it is classified as bidirectional. This feature enables the model to learn the context of a word from its surroundings (to the left and right of the word).
